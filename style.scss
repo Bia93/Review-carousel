@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f8ff;
+  .container {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7em;
+    width: 60%;
+    .title {
+      padding: 2rem 2rem;
+      text-decoration: underline;
+    }
+    .review {
+      .imgcontainer {
+        border-radius: 50%;
+      }
+      .author {
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+
+      #job {
+        font-size: 1.5rem;
+        color: blue;
+        padding: 1rem;
+      }
+      #info {
+        font-size: 1.3rem;
+        padding: 2rem;
+        line-height: 1.5;
+      }
+      .button-container {
+        .prev-btn {
+          background: transparent;
+          border-width: 0;
+          font-size: 1.5rem;
+          margin-bottom: 1em;
+          padding: 5px;
+        }
+        .next-btn {
+          background: transparent;
+          border-width: 0;
+          font-size: 1.5rem;
+          margin-bottom: 1em;
+          padding: 5px;
+        }
+      }
+      #button {
+        border-radius: 20px;
+        height: 46px;
+        width: 112px;
+        margin: 2em;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+body .container {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7em;
+  width: 60%;
+}
+body .container .title {
+  padding: 2rem 2rem;
+  text-decoration: underline;
+}
+body .container .review .imgcontainer {
+  border-radius: 50%;
+}
+body .container .review .author {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+body .container .review #job {
+  font-size: 1.5rem;
+  color: blue;
+  padding: 1rem;
+}
+body .container .review #info {
+  font-size: 1.3rem;
+  padding: 2rem;
+  line-height: 1.5;
+}
+body .container .review .button-container .prev-btn {
+  background: transparent;
+  border-width: 0;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+body .container .review .button-container .next-btn {
+  background: transparent;
+  border-width: 0;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+body .container .review #button {
+  border-radius: 20px;
+  height: 46px;
+  width: 112px;
+  margin: 2em;
+}/*# sourceMappingURL=style.css.map */
